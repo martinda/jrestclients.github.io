@@ -19,3 +19,6 @@ ui:
         contents: |
             static_files: [.nojekyll]
       - path: .nojekyll
+
+output:
+    dir: ./docs
