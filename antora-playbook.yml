@@ -7,9 +7,6 @@ content:
     - url: https://github.com/jrestclients/jrestclients-website.git
       branches: main
       start_path: docs
-    #branches: master
-    #  - url: https://gitlab.com/antora/demo/demo-component-b.git
-    #branches: [v2.0, v1.0]
 ui:
   bundle:
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
@@ -19,6 +16,7 @@ ui:
         contents: |
             static_files: [.nojekyll]
       - path: .nojekyll
+      - path: partials/header-content.hbs
 
 output:
     dir: ./docs
