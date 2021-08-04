@@ -1,2 +1,3 @@
-# jcloudsrest.github.io
-A website for the jcloudsrest project.
+# jrestclients.github.io
+
+A website for the jrestclients project.
