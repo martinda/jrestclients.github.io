@@ -1,6 +1,6 @@
 site:
   title: "Java Rest Api Clients"
-  url: http://localhost:8080
+  url: https://jrestclients.github.io
   start_page: jrestclients::index.adoc
 content:
   sources:
