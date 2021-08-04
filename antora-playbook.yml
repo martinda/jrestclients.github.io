@@ -4,7 +4,7 @@ site:
   start_page: jrestclients::index.adoc
 content:
   sources:
-    - url: /home/martin/git/martinda/jrestclients.website 
+    - url: https://github.com/jrestclients/jrestclients-website.git
       branches: main
       start_path: docs
     #branches: master
