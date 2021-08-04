@@ -1,0 +1,16 @@
+site:
+  title: "Java Rest Api Clients"
+  url: http://localhost:8080
+  start_page: jrestclients::index.adoc
+content:
+  sources:
+    - url: /home/martin/git/martinda/jrestclients.website 
+      branches: main
+      start_path: docs
+    #branches: master
+    #  - url: https://gitlab.com/antora/demo/demo-component-b.git
+    #branches: [v2.0, v1.0]
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
