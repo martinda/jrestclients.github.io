@@ -29,8 +29,10 @@ baseurl: "" # the subpath of your site, e.g. /blog
 github_username:  jrestclients
 permalink: pretty
 
-# Build settings
-theme: "just-the-docs"
+# There is "theme" and "remote_theme".
+# Github supports only a small set of themes in "theme", and just-the-docs is not one of them.
+# But Github supports remote themes from third parties, such as pmarsceill.
+remote_theme: "pmarsceill/just-the-docs"
 plugins:
   - jekyll-feed
 
