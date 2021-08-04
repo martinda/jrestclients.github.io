@@ -13,10 +13,11 @@ It goes approximately like this:
 
 ```
 antora --fetch antora-playbook.yml
-mv build/site/* .
-mv build/site/.nojekyll .
 git add . && git commit -m "What or why the changes"
-git push main upstream
+git push main origin
 ```
 
+Then open a PR targetting the main branch of
+[https://github.com/jrestclients/jrestclients.github.io](https://github.com/jrestclients/jrestclients.github.io).
 
+Instructions on how to setup Antora on your local computer can be found on the [Antora](https://antora.org) website.
