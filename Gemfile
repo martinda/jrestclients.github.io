@@ -12,11 +12,11 @@ source "https://rubygems.org"
 #gem "minima", "~> 2.5"
 
 # The latest is 0.3.3 but it has issues so we use an older version
-gem "just-the-docs", "0.3.2"
+gem "just-the-docs", "0.3.3"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
-gem "github-pages", "~> 217", group: :jekyll_plugins
+gem "github-pages", "~> 219", group: :jekyll_plugins
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
